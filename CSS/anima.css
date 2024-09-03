@@ -1,0 +1,27 @@
+div{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5 ease;
+}
+@keyframes backgroundChange{
+    0%{ background-color: rgb(21, 255, 0);}
+    50%{background-color: rgb(230, 206, 173);}
+    100%{background-color: rgb(212, 196, 255);}
+}
+.transition1{
+    animation: backgroundChange 3s infinite;
+
+}
+.transition2{
+    animation: fontSizeChange 2s infinite;
+}
+.transition3{
+    animation: moveRight 2s infinite;
+
+}
+@keyframes opacityChange{
+    0%{opacity: 1;}
+}
